@@ -1,0 +1,9 @@
+# Install rimraf globally
+npm install -g rimraf
+
+# Use rimraf to delete node_modules
+rimraf node_modules
+
+# Delete other files
+Remove-Item -Force package-lock.json
+Remove-Item -Recurse -Force .expo

@@ -1,0 +1,104 @@
+Here’s a detailed **design requirements prompt** you can use to guide your redesign process or share with designers and developers:  
+
+---
+
+**Prompt Title: Modern and Professional UI/UX Design Requirements for Smart Granary System Mobile App**  
+
+**Objective:**  
+Design a modern, professional, and intuitive UI for the Smart Granary System mobile app. The design must align with industry best practices and provide a seamless user experience while visually mirroring the web app's layout and structure. The app must present data in an organized, visually appealing way and maintain a clean and eco-friendly theme.
+
+---
+
+### **General Requirements**
+1. **Consistency with Web App:**  
+   - Ensure the mobile app UI closely mirrors the structure and layout of the web app to maintain familiarity.  
+   - Use the same components, design language, and organization of content where applicable.
+
+2. **Modern Look and Feel:**  
+   - Use a clean, flat design style with soft shadows and rounded corners for elements like cards, buttons, and containers.  
+   - Adopt a minimalist approach with appropriate spacing, alignment, and readable typography.
+
+3. **Responsiveness:**  
+   - Ensure the design is fully responsive for different mobile screen sizes.  
+
+4. **User Experience:**  
+   - Data visualization should be clear, engaging, and easy to interpret at a glance.  
+   - Ensure intuitive navigation, easy-to-read text, and simple interactions.
+
+---
+
+### **Design Specifications**
+#### **Color Palette:**  
+- Base colors: Shades of **blue**, **green**, and **white** to emphasize a natural, eco-friendly theme.  
+- Use accent colors for status indicators:  
+  - Green: Optimal  
+  - Yellow: Warning  
+  - Red: Critical  
+
+#### **Typography:**  
+- Fonts: Use **Poppins**, **Roboto**, or similar modern fonts.  
+- Headings: Bold and larger (e.g., 20px-24px).  
+- Subheadings: Medium weight, slightly smaller (e.g., 16px-18px).  
+- Body text: Regular weight, clear, and readable (e.g., 14px-16px).  
+
+#### **Spacing and Alignment:**  
+- Apply consistent spacing (e.g., Tailwind’s `space-y` or `space-x` utilities).  
+- Align all elements to a grid system for a clean, organized layout.  
+
+---
+
+### **UI Components**
+#### **Headers:**  
+- Include a top bar with the app title ("Smart Granary System") and optionally a notification or menu icon.  
+
+#### **Cards:**  
+- Display metrics like temperature, humidity, and moisture in **elevated cards** with rounded corners.  
+- Include icons and concise labels for better visualization.  
+
+#### **Status Indicators:**  
+- Use **colored chips** or badges to show system status (e.g., "Optimal" in green, "Warning" in yellow).  
+
+#### **Charts:**  
+- Use interactive, animated charts to display trends (e.g., temperature trend over time).  
+- Ensure the charts are labeled clearly, with gridlines and tooltips for data points.  
+
+#### **Navigation:**  
+- Include a **bottom navigation bar** with icons and labels for switching between main screens (e.g., Dashboard, Alerts, Settings).  
+
+#### **Alerts Section:**  
+- Display recent alerts in an **organized list** format with timestamps, icons, and short descriptions.  
+- Group critical alerts for better visibility.  
+
+#### **Animations:**  
+- Implement subtle animations for transitions and data loading.  
+
+---
+
+### **Accessibility**
+1. Ensure sufficient **contrast** between text and background.  
+2. Provide **tooltips** or labels for icons.  
+3. Include larger tap targets (e.g., 44x44px) for interactive elements.  
+
+---
+
+### **Technical Requirements**
+1. Use **Tailwind CSS** for styling with utility-first classes.  
+2. For charts, use libraries such as:  
+   - Victory Native  
+   - React Native Charts Wrapper  
+3. Follow **React Native best practices** to optimize for performance.
+
+---
+
+### **Deliverables**
+1. Screens and components that match the visual layout of the web app but optimized for mobile:  
+   - Dashboard  
+   - Alerts  
+   - Settings  
+   - Any other web app screen translated into mobile.  
+2. Prototypes or mockups in a design tool like **Figma** or **Adobe XD** before development.  
+3. Consistent and reusable design elements for future scalability.  
+
+---
+
+Feel free to use this as-is or tweak it for your specific needs! Let me know if you’d like additional customization.
